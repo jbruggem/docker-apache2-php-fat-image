@@ -20,4 +20,4 @@ RUN { \
 		echo 'opcache.enable_cli=1'; \
 	} > /usr/local/etc/php/conf.d/opcache-recommended.ini
 
-
+COPY global.conf /etc/apache2/conf-enabled/global.conf
